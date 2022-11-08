@@ -515,7 +515,7 @@ background: rgba(244, 128, 37, 1);
 }
 .news-list > li > a::after{
   content: "";
-  position:  absolute;
+  position: absolute;
   right: 29px;
   top: 0;
   width: 48px;
@@ -533,6 +533,38 @@ background: rgba(244, 128, 37, 1);
 .cs-inner {
   position: relative;
   display: block;
+}
+.cs-link{
+  position: relative;
+  display: block;
+  background: white;
+  height: 200px;
+  width: calc( 50% - 1px);
+  padding: 50px 60px;
+}
+.cs-inner > .cs-link:first-child{
+float: left;
+background: #fff url("../images/bg_faq.png") no-repeat;
+background-position:  calc(100% - 50px) 50%;
+}
+.cs-inner > .cs-link:last-child{
+  background: #fff url("../images/bg_custom.png") no-repeat;
+background-position:  calc(100% - 50px) 50%;
+
+float: right;
+}
+.cs-link h3{
+  position: relative;
+  display: block;
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.cs-link p{ position: relative;
+  display: block;
+ 
+
 }
 
 .about {
