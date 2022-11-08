@@ -118,13 +118,13 @@ body {
 
   top: 0; */
   display: block;
-  width: calc(180px * 6 - 60px);
+  width: calc(180px * 6 - 80px);
   margin: 0 auto;
 }
 .gnb {
   position: relative;
   display: block;
-  width: calc(180px * 6 - 60px);
+  width: calc(180px * 6 - 80px);
   overflow: hidden;
 }
 .gnb > li {
@@ -134,11 +134,11 @@ body {
   float: left;
   border: #000;
 
-  width: 160px;
+  
   float: left;
 }
-.gnb > li > :last-child {
-  width: 120px;
+.gnb > li:last-child {
+  width: 100px;
 }
 .gnb > li > a {
   position: relative;
